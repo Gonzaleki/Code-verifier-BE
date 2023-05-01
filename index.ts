@@ -17,6 +17,10 @@ app.get('/hello', (req: Request, res: Response) => {
     res.send('Hello World!');
 });
 
+app.get('/message', (req: Request, res: Response) => {
+    res.status(200).json({data:{message: "Goodbye, world"}})
+});
+
 // Execute App and listen on port
 app.listen(port, ()=>{
     console.log(`EXPRESS Server: Running on http://localhost:${port}`);
