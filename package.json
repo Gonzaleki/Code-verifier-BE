@@ -1,0 +1,26 @@
+{
+  "name": "code-verifier-be",
+  "version": "1.0.0",
+  "description": "Backend Node + Express + TS + Swagger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gonzaleki/Code-verifier-BE.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "swagger",
+    "mongoose"
+  ],
+  "author": "@Gonzaleki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gonzaleki/Code-verifier-BE/issues"
+  },
+  "homepage": "https://github.com/Gonzaleki/Code-verifier-BE#readme"
+}
